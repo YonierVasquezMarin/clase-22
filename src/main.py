@@ -46,8 +46,11 @@ def count_substring(string, sub_string):
         sub_string: (string)
     rerturn : int
     """
-
-    return 0
+    vecesRepetidas = string.count(sub_string)
+    if vecesRepetidas == -1:
+        return 0
+    else:
+        return vecesRepetidas
 
 if __name__ == "__main__":
     main()
