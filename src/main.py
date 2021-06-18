@@ -5,7 +5,19 @@ def main():
     """
     myVariable = complex()
     print(myVariable)
+    sumatoria(3)
+    print(calVolumenParalelepipedo(2,3,10))
+    print(sumatoria(3))
     return None
+
+def sumatoria(x):
+    resultado = (x*(x+1))/2
+    return resultado
+
+def calVolumenParalelepipedo(x,y,z):
+    resultado = x*y*z
+    return resultado
+
 
 # Esto sera una constante
 complex_zero = {0,0}
